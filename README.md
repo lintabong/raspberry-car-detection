@@ -1,3 +1,9 @@
+# Raspberry Pi Vehicle Distance Sensor
+
+## required:
+- python 3.8 - 3.11
+
+## Steps:
 1. download python https://www.python.org/downloads/
 2. install python
 3. cara cek python terinstall ```python --version```
