@@ -6,11 +6,8 @@ video_src = 'cars0.jpg'
 cap = cv2.VideoCapture(video_src)
 car_cascade = cv2.CascadeClassifier(cascade_src)
 
-if (cap.isOpened()== False):
-    print("Error")
-
 while True:
-    ret, img = cap.read()
+    img = cv2.imread("sample/cars2.jpg")
     if (type(img) == type(None)):
         break
     
